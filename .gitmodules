@@ -1,0 +1,6 @@
+[submodule "llvm-ir-cmake-utils"]
+	path = llvm-ir-cmake-utils
+	url = https://github.com/studyztp/llvm-ir-cmake-utils
+[submodule "lsms"]
+	path = lsms
+	url = https://github.com/studyztp/lsms
