@@ -1,6 +1,6 @@
-[submodule "llvm-ir-cmake-utils"]
-	path = llvm-ir-cmake-utils
-	url = https://github.com/studyztp/llvm-ir-cmake-utils
+[submodule "nugget-util"]
+	path = nugget-util
+	url = https://github.com/studyztp/nugget-util.git
 [submodule "lsms"]
 	path = lsms
 	url = https://github.com/studyztp/lsms
