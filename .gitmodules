@@ -1,6 +1,6 @@
 [submodule "nugget_util"]
 	path = nugget_util
-	url = https://github.com/studyztp/nugget_util
+	url = git@github.com:studyztp/nugget_util.git
 [submodule "lsms"]
 	path = lsms
-	url = https://github.com/studyztp/lsms
+	url = git@github.com:studyztp/lsms.git
