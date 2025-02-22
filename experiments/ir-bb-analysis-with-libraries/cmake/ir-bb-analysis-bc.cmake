@@ -6,3 +6,5 @@ set(TARGET_NAME lsms_ir_bb_analysis_include_library_bc)
 set(INCLUDE_LIBRARIES_IN_BC true)
 
 list(APPEND EXTRA_FLAGS "-D_longjmp=longjmp" "-D_POSIX_C_SOURCE=200809L")
+
+set(BB_INFO_OUTPUT_DIR ir-bb-analysis-include-library-bb-info)
