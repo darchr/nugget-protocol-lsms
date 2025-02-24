@@ -30,4 +30,6 @@ set(TARGET_NAME "lsms_ir_bb_analysis_include_library_exe")
 
 set(INCLUDE_LIBRARIES_IN_BC true)
 
-set(EXTRACT_HOOK true)
+set(EXTRACT_FUNCTIONS "work_gga_exc_unpol")
+
+set(SHRUNK_BC true)
