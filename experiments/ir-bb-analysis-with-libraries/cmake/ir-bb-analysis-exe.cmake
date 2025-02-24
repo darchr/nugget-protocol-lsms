@@ -33,3 +33,6 @@ set(INCLUDE_LIBRARIES_IN_BC true)
 set(EXTRACT_FUNCTIONS "work_gga_exc_unpol")
 
 set(SHRUNK_BC true)
+
+list(APPEND EXTRA_FLAGS "-flto" "-fPIC" "-fvisibility=hidden")
+
