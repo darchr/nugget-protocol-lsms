@@ -4,4 +4,4 @@ include(base_config)
 set(REGION_LENGTH 100000000)
 set(TARGET_NAME lsms_ir_bb_analysis_bc)
 
-set(BB_INFO_OUTPUT_DIR ${CMAKE_BINARY_DIR}/ir-bb-analysis-bb-info)
+set(BC_INFO_OUTPUT_DIR ${CMAKE_BINARY_DIR}/ir-bb-analysis-bb-info)

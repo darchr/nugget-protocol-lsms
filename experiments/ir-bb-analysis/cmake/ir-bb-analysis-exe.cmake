@@ -19,11 +19,11 @@ endif()
 
 message(STATUS "LLC_CMD: ${LLC_CMD}")
 
-set(BB_FILE_PATH
+set(BC_FILE_PATH
     "${CMAKE_CURRENT_BINARY_DIR}/llvm-bc/lsms_ir_bb_analysis_bc/lsms_ir_bb_analysis_bc.bc")
 
-if(NOT EXISTS ${BB_FILE_PATH})
-    message(FATAL_ERROR "Analysis BC file not found: ${BB_FILE_PATH}")
+if(NOT EXISTS ${BC_FILE_PATH})
+    message(FATAL_ERROR "Analysis BC file not found: ${BC_FILE_PATH}")
 endif()
 
 set(TARGET_NAME "lsms_ir_bb_analysis_exe")
