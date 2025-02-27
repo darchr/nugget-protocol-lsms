@@ -1,0 +1,2400 @@
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:473 (message):
+  Library BLAS::BLAS does not exists.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:482 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1467 (llvmir_extract_library_linking)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:504 (message):
+  The compile language is a generator.  The compile option -fopenmp is added
+  to compile options.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:511 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1470 (llvmir_extract_library_compile_option)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtilInternal.cmake:434 (message):
+  Library dl is not a target.
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1472 (llvmir_extract_library_include)
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+
+CMake Warning at /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib/LLVMIRUtil.cmake:1597 (message):
+  Flag -mtune=native is not supported by the LLVM Flang
+Call Stack (most recent call first):
+  /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/Nugget.cmake:390 (create_bc_target_without_rebuild)
+  CMakeLists.txt:423 (nugget_compile_exe)
+
+

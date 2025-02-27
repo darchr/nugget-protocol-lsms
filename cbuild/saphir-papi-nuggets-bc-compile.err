@@ -1,0 +1,668 @@
+gmake[3]: /home/ztpc/compiler/llvm-dir/bin/clang: No such file or directory
+gmake[3]: *** [CMakeFiles/saphir_papi_nuggets_bc_hook_ir.dir/build.make:73: llvm-ir/saphir_papi_nuggets_bc_hook_ir/nugget_util/hook_helper/c_hooks/nugget/single-threaded-papi-nugget.ll] Error 127
+gmake[2]: *** [CMakeFiles/Makefile2:1032: CMakeFiles/saphir_papi_nuggets_bc_hook_ir.dir/all] Error 2
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:2496: CMakeFiles/saphir_papi_nuggets_bc.dir/rule] Error 2
+gmake: *** [Makefile:1021: saphir_papi_nuggets_bc] Error 2
+gmake[1]: *** No rule to make target 'saphir_papi_nuggets_bc'.  Stop.
+gmake: *** [Makefile:1021: saphir_papi_nuggets_bc] Error 2
+clang: warning: -lmpi_cxx: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: -lmpi: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: -lgfortran: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: -lFortranRuntime: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: -lFortranDecimal: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: -lFortran_main: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: -lflangFrontend: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: /scr/studyztp/experiments/lsms/nugget-protocol-lsms/experiments/cmake/../../nugget_util/hook_helper/other_tools/papi/aarch64/lib/libpapi.a: 'linker' input unused [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L/usr/lib/aarch64-linux-gnu/openmpi/lib' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-L/scr/studyztp/compiler/llvm-dir/lib' [-Wunused-command-line-argument]
+warmupMarkerFunctionId: 362
+warmupMarkerBBId: 11714
+warmupMarkerCount: 8736284
+startMarkerFunctionId: 332
+startMarkerBBId: 10678
+startMarkerCount: 31
+endMarkerFunctionId: 319
+endMarkerBBId: 10226
+endMarkerCount: 6
+reading basic block order file
+warmupMarkerFunctionId: 385
+warmupMarkerBBId: 12194
+warmupMarkerCount: 1902
+startMarkerFunctionId: 387
+startMarkerBBId: 12230
+startMarkerCount: 11867
+endMarkerFunctionId: 387
+endMarkerBBId: 12233
+endMarkerCount: 4
+reading basic block order file
+warmupMarkerFunctionId: 319
+warmupMarkerBBId: 10263
+warmupMarkerCount: 18427
+startMarkerFunctionId: 463
+startMarkerBBId: 14076
+startMarkerCount: 9
+endMarkerFunctionId: 462
+endMarkerBBId: 14064
+endMarkerCount: 27
+reading basic block order file
+warmupMarkerFunctionId: 362
+warmupMarkerBBId: 11714
+warmupMarkerCount: 8667381
+startMarkerFunctionId: 317
+startMarkerBBId: 10159
+startMarkerCount: 2
+endMarkerFunctionId: 332
+endMarkerBBId: 10691
+endMarkerCount: 14
+reading basic block order file
+warmupMarkerFunctionId: 362
+warmupMarkerBBId: 11714
+warmupMarkerCount: 8550840
+startMarkerFunctionId: 332
+startMarkerBBId: 10654
+startMarkerCount: 333018
+endMarkerFunctionId: 332
+endMarkerBBId: 10691
+endMarkerCount: 22
+reading basic block order file
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 60967
+startMarkerFunctionId: 319
+startMarkerBBId: 10264
+startMarkerCount: 2
+endMarkerFunctionId: 332
+endMarkerBBId: 10654
+endMarkerCount: 1227440
+reading basic block order file
+End marker found
+Start marker found
+Warmup marker found
+warmupMarkerFunctionId: 362
+warmupMarkerBBId: 11714
+warmupMarkerCount: 7264811
+startMarkerFunctionId: 332
+startMarkerBBId: 10678
+startMarkerCount: 31
+endMarkerFunctionId: 319
+endMarkerBBId: 10263
+endMarkerCount: 27
+Warmup marker found
+reading basic block order file
+Start marker found
+End marker found
+warmupMarkerFunctionId: 385
+warmupMarkerBBId: 12194
+warmupMarkerCount: 6122
+startMarkerFunctionId: 387
+startMarkerBBId: 12234
+startMarkerCount: 12
+endMarkerFunctionId: 362
+endMarkerBBId: 11714
+endMarkerCount: 824
+reading basic block order file
+Warmup marker found
+End marker found
+Start marker found
+Start marker found
+End marker found
+Warmup marker found
+warmupMarkerFunctionId: 319
+warmupMarkerBBId: 10226
+warmupMarkerCount: 2595
+startMarkerFunctionId: 332
+startMarkerBBId: 10654
+startMarkerCount: 765439
+endMarkerFunctionId: 332
+endMarkerBBId: 10691
+endMarkerCount: 25
+reading basic block order file
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 122588
+startMarkerFunctionId: 319
+startMarkerBBId: 10226
+startMarkerCount: 6
+endMarkerFunctionId: 332
+endMarkerBBId: 10654
+endMarkerCount: 1439546
+reading basic block order file
+Start marker found
+End marker found
+Warmup marker found
+Start marker found
+End marker found
+Warmup marker found
+End marker found
+Start marker found
+Warmup marker found
+warmupMarkerFunctionId: 362
+warmupMarkerBBId: 11714
+warmupMarkerCount: 9099206
+startMarkerFunctionId: 332
+startMarkerBBId: 10678
+startMarkerCount: 31
+endMarkerFunctionId: 300
+endMarkerBBId: 9800
+endMarkerCount: 1
+reading basic block order file
+End marker found
+Warmup marker found
+Start marker found
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 73128
+startMarkerFunctionId: 319
+startMarkerBBId: 10264
+startMarkerCount: 1
+endMarkerFunctionId: 332
+endMarkerBBId: 10654
+endMarkerCount: 510320
+reading basic block order file
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 83077
+startMarkerFunctionId: 362
+startMarkerBBId: 11714
+startMarkerCount: 2336
+endMarkerFunctionId: 319
+endMarkerBBId: 10230
+endMarkerCount: 8
+reading basic block order file
+warmupMarkerFunctionId: 362
+warmupMarkerBBId: 11714
+warmupMarkerCount: 419056
+startMarkerFunctionId: 332
+startMarkerBBId: 10678
+startMarkerCount: 31
+endMarkerFunctionId: 319
+endMarkerBBId: 10225
+endMarkerCount: 5
+reading basic block order file
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 55555
+startMarkerFunctionId: 332
+startMarkerBBId: 10678
+startMarkerCount: 30
+endMarkerFunctionId: 331
+endMarkerBBId: 10487
+endMarkerCount: 1
+reading basic block order file
+warmupMarkerFunctionId: 319
+warmupMarkerBBId: 10263
+warmupMarkerCount: 5223
+startMarkerFunctionId: 332
+startMarkerBBId: 10654
+startMarkerCount: 1151145
+endMarkerFunctionId: 332
+endMarkerBBId: 10691
+endMarkerCount: 27
+reading basic block order file
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 128961
+startMarkerFunctionId: 362
+startMarkerBBId: 11714
+startMarkerCount: 2323
+endMarkerFunctionId: 332
+endMarkerBBId: 10678
+endMarkerCount: 21
+reading basic block order file
+Start marker found
+End marker found
+Warmup marker found
+Warmup marker found
+Start marker found
+End marker found
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 9466
+startMarkerFunctionId: 319
+startMarkerBBId: 10218
+startMarkerCount: 7
+endMarkerFunctionId: 362
+endMarkerBBId: 11714
+endMarkerCount: 353
+reading basic block order file
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 84521
+startMarkerFunctionId: 319
+startMarkerBBId: 10230
+startMarkerCount: 5
+endMarkerFunctionId: 332
+endMarkerBBId: 10691
+endMarkerCount: 10
+reading basic block order file
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 38764
+startMarkerFunctionId: 332
+startMarkerBBId: 10654
+startMarkerCount: 899796
+endMarkerFunctionId: 362
+endMarkerBBId: 11714
+endMarkerCount: 1965
+reading basic block order file
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 68863
+startMarkerFunctionId: 317
+startMarkerBBId: 10158
+startMarkerCount: 1
+endMarkerFunctionId: 332
+endMarkerBBId: 10654
+endMarkerCount: 642123
+reading basic block order file
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 114823
+startMarkerFunctionId: 362
+startMarkerBBId: 11714
+startMarkerCount: 2323
+endMarkerFunctionId: 319
+endMarkerBBId: 10263
+endMarkerCount: 14
+reading basic block order file
+End marker found
+Start marker found
+Warmup marker found
+warmupMarkerFunctionId: 461
+warmupMarkerBBId: 13893
+warmupMarkerCount: 161
+startMarkerFunctionId: 461
+startMarkerBBId: 13886
+startMarkerCount: 4
+endMarkerFunctionId: 387
+endMarkerBBId: 12252
+endMarkerCount: 1801
+reading basic block order file
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 118129
+startMarkerFunctionId: 332
+startMarkerBBId: 10678
+startMarkerCount: 30
+endMarkerFunctionId: 317
+endMarkerBBId: 10158
+endMarkerCount: 1
+reading basic block order file
+warmupMarkerFunctionId: 362
+warmupMarkerBBId: 11714
+warmupMarkerCount: 7338369
+startMarkerFunctionId: 319
+startMarkerBBId: 10263
+startMarkerCount: 9
+endMarkerFunctionId: 463
+endMarkerBBId: 14077
+endMarkerCount: 2
+reading basic block order file
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 119252
+startMarkerFunctionId: 362
+startMarkerBBId: 11714
+startMarkerCount: 2324
+endMarkerFunctionId: 319
+endMarkerBBId: 10264
+endMarkerCount: 5
+reading basic block order file
+Start marker found
+End marker found
+Warmup marker found
+End marker found
+End marker found
+Start marker found
+Warmup marker found
+Warmup marker found
+Start marker found
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 114502
+startMarkerFunctionId: 362
+startMarkerBBId: 11714
+startMarkerCount: 2324
+endMarkerFunctionId: 319
+endMarkerBBId: 10250
+endMarkerCount: 16
+reading basic block order file
+End marker found
+Start marker found
+Warmup marker found
+Warmup marker found
+Start marker found
+End marker found
+End marker found
+Warmup marker found
+Start marker found
+Start marker found
+Warmup marker found
+End marker found
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 103989
+startMarkerFunctionId: 332
+startMarkerBBId: 10678
+startMarkerCount: 30
+endMarkerFunctionId: 332
+endMarkerBBId: 10654
+endMarkerCount: 1093924
+reading basic block order file
+warmupMarkerFunctionId: 319
+warmupMarkerBBId: 10226
+warmupMarkerCount: 9734
+startMarkerFunctionId: Start marker found
+332
+startMarkerBBId: 10654
+startMarkerCount: 1445345
+endMarkerFunctionId: 332
+endMarkerBBId: 10691
+endMarkerCount: 29
+End marker found
+Warmup marker found
+reading basic block order file
+warmupMarkerFunctionId: 385
+warmupMarkerBBId: 12194
+warmupMarkerCount: 14307
+startMarkerFunctionId: 387
+startMarkerBBId: 12234
+startMarkerCount: 12
+endMarkerFunctionId: 332
+endMarkerBBId: 10654
+endMarkerCount: 935759
+reading basic block order file
+Start marker found
+Warmup marker found
+End marker found
+Start marker found
+warmupMarkerFunctionId: End marker found
+319Warmup marker found
+
+warmupMarkerBBId: 10263
+warmupMarkerCount: 14438
+startMarkerFunctionId: 332
+startMarkerBBId: 10654
+startMarkerCount: 1026678
+endMarkerFunctionId: 362
+endMarkerBBId: 11714
+endMarkerCount: 2027
+reading basic block order file
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 117387
+startMarkerFunctionId: 317
+startMarkerBBId: 10158
+startMarkerCount: 2
+endMarkerFunctionId: 332
+endMarkerBBId: 10691
+endMarkerCount: 12
+reading basic block order file
+End marker found
+Warmup marker found
+Start marker found
+warmupMarkerFunctionId: 362
+warmupMarkerBBId: 11714
+warmupMarkerCount: 8809854
+startMarkerFunctionId: 332
+startMarkerBBId: 10678
+startMarkerCount: 31
+endMarkerFunctionId: 319
+endMarkerBBId: 10264
+endMarkerCount: 6
+reading basic block order file
+End marker found
+Start marker found
+Warmup marker found
+End marker found
+Start marker found
+Warmup marker found
+Start marker found
+Warmup marker found
+End marker found
+End marker found
+Warmup marker found
+Start marker found
+warmupMarkerFunctionId: 461
+warmupMarkerBBId: 13900
+warmupMarkerCount: 334
+startMarkerFunctionId: 462
+startMarkerBBId: 14014
+startMarkerCount: 14
+endMarkerFunctionId: 381
+endMarkerBBId: 12135
+endMarkerCount: 1
+reading basic block order file
+End marker found
+Warmup marker found
+Start marker found
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 68912
+startMarkerFunctionId: 362
+startMarkerBBId: 11714
+startMarkerCount: 2337
+endMarkerFunctionId: 332
+endMarkerBBId: 10654
+endMarkerCount: 960405
+reading basic block order file
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 118289
+startMarkerFunctionId: 362
+startMarkerBBId: 11714
+startMarkerCount: 2336
+endMarkerFunctionId: 319
+endMarkerBBId: 10263
+endMarkerCount: 6
+reading basic block order file
+warmupMarkerFunctionId: 462
+warmupMarkerBBId: 14014
+warmupMarkerCount: 206
+startMarkerFunctionId: 462
+startMarkerBBId: 14064
+startMarkerCount: 26
+endMarkerFunctionId: 387
+endMarkerBBId: 12252
+endMarkerCount: 4589
+reading basic block order file
+warmupMarkerFunctionId: 362
+warmupMarkerBBId: 11714
+warmupMarkerCount: 330279
+startMarkerFunctionId: 332
+startMarkerBBId: 10654
+startMarkerCount: 1291637
+endMarkerFunctionId: 332
+endMarkerBBId: 10691
+endMarkerCount: 28
+reading basic block order file
+End marker found
+Start marker found
+Warmup marker found
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 38524
+startMarkerFunctionId: 319
+startMarkerBBId: 10230
+startMarkerCount: 1
+endMarkerFunctionId: 332
+endMarkerBBId: 10654
+endMarkerCount: 195295
+reading basic block order file
+Warmup marker found
+Start marker found
+End marker found
+End marker found
+Warmup marker found
+Start marker found
+Warmup marker found
+Start marker found
+End marker found
+warmupMarkerFunctionId: 362
+warmupMarkerBBId: 11714
+warmupMarkerCount: 4682695
+startMarkerFunctionId: 319
+startMarkerBBId: 10264
+startMarkerCount: 3
+endMarkerFunctionId: 332
+endMarkerBBId: 10691
+endMarkerCount: 2
+reading basic block order file
+Start marker found
+End marker found
+Warmup marker found
+End marker found
+Start marker found
+Warmup marker found
+warmupMarkerFunctionId: 362
+warmupMarkerBBId: 11714
+warmupMarkerCount: 3029274
+startMarkerFunctionId: 327
+startMarkerBBId: 10426
+startMarkerCount: 23
+endMarkerFunctionId: 332
+endMarkerBBId: 10691
+endMarkerCount: 8
+reading basic block order file
+End marker found
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 34263
+startMarkerFunctionId: 319
+startMarkerBBId: 10250
+startMarkerCount: 8
+endMarkerFunctionId: 332
+endMarkerBBId: 10654
+endMarkerCount: 1001671
+reading basic block order file
+Warmup marker found
+Start marker found
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 60140
+startMarkerFunctionId: 362
+startMarkerBBId: 11714
+startMarkerCount: 2331
+endMarkerFunctionId: 319
+endMarkerBBId: 10250
+endMarkerCount: 1
+reading basic block order file
+End marker found
+Warmup marker found
+Start marker found
+End marker found
+Warmup marker found
+Start marker found
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 135878
+startMarkerFunctionId: 317
+startMarkerBBId: 10160
+startMarkerCount: 2
+endMarkerFunctionId: 332
+endMarkerBBId: 10691
+endMarkerCount: 17
+reading basic block order file
+End marker found
+Start marker found
+End marker found
+Warmup marker found
+Warmup marker found
+Start marker found
+Start marker found
+End marker found
+Warmup marker found
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 99832
+startMarkerFunctionId: 319
+startMarkerBBId: 10226
+startMarkerCount: 3
+endMarkerFunctionId: 332
+endMarkerBBId: 10654
+endMarkerCount: 800226
+reading basic block order file
+Start marker found
+End marker found
+Warmup marker found
+warmupMarkerFunctionId: 387
+warmupMarkerBBId: 12252
+warmupMarkerCount: 3053975
+startMarkerFunctionId: 387
+startMarkerBBId: 12234
+startMarkerCount: 12
+endMarkerFunctionId: 332
+endMarkerBBId: 10691
+endMarkerCount: 2
+reading basic block order file
+Start marker found
+End marker found
+Warmup marker found
+Start marker found
+End marker found
+Warmup marker found
+End marker found
+Warmup marker found
+Start marker found
+warmupMarkerFunctionId: 319
+warmupMarkerBBId: 10230
+warmupMarkerCount: 6689
+startMarkerFunctionId: 332
+startMarkerBBId: 10654
+startMarkerCount: 163604
+endMarkerFunctionId: 332
+endMarkerBBId: 10691
+endMarkerCount: 21
+reading basic block order file
+Start marker found
+End marker found
+Warmup marker found
+Start marker found
+End marker found
+Warmup marker found
+End marker found
+Start marker found
+Warmup marker found
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 128752
+startMarkerFunctionId: 319
+startMarkerBBId: 10250
+startMarkerCount: 14
+endMarkerFunctionId: 362
+endMarkerBBId: 11714
+endMarkerCount: 50
+reading basic block order file
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 91613
+startMarkerFunctionId: 319
+startMarkerBBId: 10263
+startMarkerCount: 2
+endMarkerFunctionId: 332
+endMarkerBBId: 10654
+endMarkerCount: 368718
+reading basic block order file
+warmupMarkerFunctionId: 332
+warmupMarkerBBId: 10691
+warmupMarkerCount: 37592
+startMarkerFunctionId: 319
+startMarkerBBId: 10263
+startMarkerCount: 14
+endMarkerFunctionId: 362
+endMarkerBBId: 11714
+endMarkerCount: 501
+reading basic block order file
+Warmup marker found
+Start marker found
+End marker found
+Start marker found
+Warmup marker found
+End marker found
+Start marker found
+End marker found
+Warmup marker found
+Start marker found
+Warmup marker found
+End marker found

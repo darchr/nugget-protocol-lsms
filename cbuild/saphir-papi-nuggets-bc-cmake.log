@@ -1,0 +1,109 @@
+-- CMake 3.30.3 with max. 1 threads
+-- Use toolchain file generic-cpu
+-- Build type: Release
+-- Build external libraries
+-- Lua: Use linux and POSIX
+-- Readline library: /usr/lib/aarch64-linux-gnu/libreadline.so
+-- Readline include dir: /usr/include
+-- LIBXC is used
+-- libxc_LIBRARIES: /scr/studyztp/experiments/lsms/nugget-protocol-lsms/cbuild/external/libxc-build/libxc.a
+-- libxc_INCLUDE_DIR: /scr/studyztp/experiments/lsms/nugget-protocol-lsms/cbuild/external/libxc-build/src
+-- libxc_INCLUDE_BUILD_DIR: /scr/studyztp/experiments/lsms/nugget-protocol-lsms/cbuild/external/libxc-build
+-- libxc was found
+-- {fmt} version: 11.1.4
+-- Build type: Release
+-- Default linear solver: 0x0005
+-- Default KKR matrix build: 0x1000
+-- Find HDF5
+-- HDF5 C Libraries: /usr/lib/aarch64-linux-gnu/hdf5/serial/libhdf5.so;/usr/lib/aarch64-linux-gnu/libcrypto.so;/usr/lib/aarch64-linux-gnu/libcurl.so;/usr/lib/aarch64-linux-gnu/libpthread.a;/usr/lib/aarch64-linux-gnu/libsz.so;/usr/lib/aarch64-linux-gnu/libz.so;/usr/lib/aarch64-linux-gnu/libdl.a;/usr/lib/aarch64-linux-gnu/libm.so
+-- HDF5 LIBRARIES: /usr/lib/aarch64-linux-gnu/hdf5/serial/libhdf5.so;/usr/lib/aarch64-linux-gnu/libcrypto.so;/usr/lib/aarch64-linux-gnu/libcurl.so;/usr/lib/aarch64-linux-gnu/libpthread.a;/usr/lib/aarch64-linux-gnu/libsz.so;/usr/lib/aarch64-linux-gnu/libz.so;/usr/lib/aarch64-linux-gnu/libdl.a;/usr/lib/aarch64-linux-gnu/libm.so
+-- HDF5 INCLUDE DIRS: /usr/include/hdf5/serial
+-- HDF5 Version: 1.10.10
+-- IPO / LTO supported
+-- Inside NUGGET_PROCESS_TYPE
+-- NUGGET_PROCESS_TYPE: lsms-nugget-bc
+-- NUGGET_CONFIG_FILE: /scr/studyztp/experiments/lsms/nugget-protocol-lsms/cbuild/../experiments/saphir-papi-nuggets/cmake/papi-nugget-bc.cmake
+-- ALL_NUGGET_RIDS: 2820;6066;795;6562;483;5293;5816;3508;4619;1979;5776;4832;6017;3127;5837;2857;4917;5710;6961;4299;6247;1345;1338;2824;3730;6024;6059;4236;3056;2017;1968;6899;5823;3141;4874;1746;5389;5075;5984;1830;5858;6740;1797;4680;1927;3655;223;3511;6552;309
+-- CMAKE_MODULE_PATH: /scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/cmake;/scr/studyztp/experiments/lsms/nugget-protocol-lsms/experiments/saphir-papi-nuggets/cmake/../../cmake;/scr/studyztp/experiments/lsms/nugget-protocol-lsms/experiments/cmake/../../nugget_util/cmake;/scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/cmake/my-llvm-ir-cmake-lib;/scr/studyztp/experiments/lsms/nugget-protocol-lsms/experiments/cmake/../../nugget_util/cmake;/scr/studyztp/experiments/lsms/nugget-protocol-lsms/experiments/cmake/../../nugget_util/hook_helper/c_hooks
+-- PAPI_PATH=/scr/studyztp/experiments/lsms/nugget-protocol-lsms/experiments/cmake/../../nugget_util/hook_helper/other_tools/papi/aarch64
+-- M5_PATH=/scr/studyztp/experiments/lsms/nugget-protocol-lsms/experiments/cmake/../../nugget_util/hook_helper/other_tools/gem5/arm64
+-- M5_INCLUDE_PATH=/scr/studyztp/experiments/lsms/nugget-protocol-lsms/experiments/cmake/../../nugget_util/hook_helper/other_tools/gem5/include
+-- Found OpenMP_C: -fopenmp (found version "4.5")
+-- Found OpenMP_CXX: -fopenmp (found version "4.5")
+-- Found OpenMP_Fortran: -fopenmp (found version "4.5")
+-- Before linking m5-naive:
+-- Include dirs: /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/hook_helper/c_hooks/naive
+-- Link dirs: LINK_DIRS-NOTFOUND
+-- Link libs: LINK_LIBS-NOTFOUND
+-- After linking m5-naive:
+-- Include dirs: /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/hook_helper/c_hooks/naive;/scr/studyztp/experiments/lsms/nugget-protocol-lsms/experiments/cmake/../../nugget_util/hook_helper/other_tools/gem5/include
+-- Link dirs: /scr/studyztp/experiments/lsms/nugget-protocol-lsms/experiments/cmake/../../nugget_util/hook_helper/other_tools/gem5/arm64
+-- Link libs: /scr/studyztp/experiments/lsms/nugget-protocol-lsms/experiments/cmake/../../nugget_util/hook_helper/other_tools/gem5/arm64/libm5.a
+-- Before linking openmp-m5-nugget:
+-- Include dirs: /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/hook_helper/c_hooks/nugget
+-- Link dirs: LINK_DIRS-NOTFOUND
+-- Link libs: LINK_LIBS-NOTFOUND
+-- After linking openmp-m5-nugget:
+-- Include dirs: /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/hook_helper/c_hooks/nugget;/scr/studyztp/experiments/lsms/nugget-protocol-lsms/experiments/cmake/../../nugget_util/hook_helper/other_tools/gem5/include
+-- Link dirs: /scr/studyztp/experiments/lsms/nugget-protocol-lsms/experiments/cmake/../../nugget_util/hook_helper/other_tools/gem5/arm64
+-- Link libs: /scr/studyztp/experiments/lsms/nugget-protocol-lsms/experiments/cmake/../../nugget_util/hook_helper/other_tools/gem5/arm64/libm5.a
+-- Before linking single-threaded-m5-nugget:
+-- Include dirs: /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/hook_helper/c_hooks/nugget
+-- Link dirs: LINK_DIRS-NOTFOUND
+-- Link libs: LINK_LIBS-NOTFOUND
+-- After linking single-threaded-m5-nugget:
+-- Include dirs: /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/hook_helper/c_hooks/nugget;/scr/studyztp/experiments/lsms/nugget-protocol-lsms/experiments/cmake/../../nugget_util/hook_helper/other_tools/gem5/include
+-- Link dirs: /scr/studyztp/experiments/lsms/nugget-protocol-lsms/experiments/cmake/../../nugget_util/hook_helper/other_tools/gem5/arm64
+-- Link libs: /scr/studyztp/experiments/lsms/nugget-protocol-lsms/experiments/cmake/../../nugget_util/hook_helper/other_tools/gem5/arm64/libm5.a
+-- LLVM IR Utils setup
+-- GLOBAL_INCLUDES: -I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/hook_helper/c_hooks/nugget;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/experiments/cmake/../../nugget_util/hook_helper/other_tools/papi/aarch64/include
+-- GLOBAL_DEFINITION: 
+-- GLOBAL_COMPILE_OPTIONS: 
+-- GLOBAL_COMPILE_FLAGS: 
+-- GLOBAL_C_FLAGS: -std=c11
+-- GLOBAL_CXX_FLAGS: -O3;-mtune=native;-mcpu=native;-std=c++17
+-- GLOBAL_Fortran_FLAGS: -O3;-mcpu=native
+-- GLOBAL_LIB_LINKING_LIB_PATHS: 
+-- GLOBAL_LIB_LINKING_LIBS: 
+-- GLOBAL_LIB_INCLUDES: 
+-- GLOBAL_LIB_OPTIONS: 
+-- temp_library_target_list: 
+-- ADD_CMDS: 
+-- Generating IR for /scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/hook_helper/c_hooks/nugget/single-threaded-papi-nugget.c
+-- GLOBAL_INCLUDES: -I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/hook_helper/c_hooks/nugget;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/experiments/cmake/../../nugget_util/hook_helper/other_tools/papi/aarch64/include
+-- GLOBAL_DEFINITION: 
+-- GLOBAL_COMPILE_OPTIONS: 
+-- GLOBAL_COMPILE_FLAGS: 
+-- GLOBAL_C_FLAGS: -std=c11
+-- GLOBAL_CXX_FLAGS: -O3;-mtune=native;-mcpu=native;-std=c++17
+-- GLOBAL_Fortran_FLAGS: -O3;-mcpu=native
+-- GLOBAL_LIB_LINKING_LIB_PATHS: 
+-- GLOBAL_LIB_LINKING_LIBS: 
+-- GLOBAL_LIB_INCLUDES: 
+-- GLOBAL_LIB_OPTIONS: 
+-- GLOBAL_INCLUDES: -I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/Accelerator;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/Communication;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/Core;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/Kubo;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/ChargeDensity;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/LuaInterface;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/Main;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/Madelung;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/MultipoleMadelung;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/Mixer;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/Misc;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/MultipleScattering;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/Potential;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/RadialGrid;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/SingleSite;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/TotalEnergy;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/VORPOL;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/include
+-- GLOBAL_DEFINITION: -DMST_LINEAR_SOLVER_DEFAULT=0x0005;-DMST_BUILD_KKR_MATRIX_DEFAULT=0x1000;-DUSE_LIBXC;-DHAS_BACKTRACE
+-- GLOBAL_COMPILE_OPTIONS: 
+-- GLOBAL_COMPILE_FLAGS: 
+-- GLOBAL_C_FLAGS: -std=c11
+-- GLOBAL_CXX_FLAGS: -O3;-mtune=native;-mcpu=native;-std=c++17
+-- GLOBAL_Fortran_FLAGS: -O3;-mcpu=native
+-- GLOBAL_LIB_LINKING_LIB_PATHS: -L/scr/studyztp/experiments/lsms/nugget-protocol-lsms/cbuild/_deps/fmt-build;-L/scr/studyztp/experiments/lsms/nugget-protocol-lsms/cbuild
+-- GLOBAL_LIB_LINKING_LIBS: -lfmt;/usr/lib/gcc/aarch64-linux-gnu/13/libgomp.so;/usr/lib/aarch64-linux-gnu/libpthread.a;/usr/lib/aarch64-linux-gnu/hdf5/serial/libhdf5.so;/usr/lib/aarch64-linux-gnu/libcrypto.so;/usr/lib/aarch64-linux-gnu/libcurl.so;/usr/lib/aarch64-linux-gnu/libsz.so;/usr/lib/aarch64-linux-gnu/libz.so;/usr/lib/aarch64-linux-gnu/libdl.a;/usr/lib/aarch64-linux-gnu/libm.so;/usr/lib/aarch64-linux-gnu/liblapack.so;/usr/lib/aarch64-linux-gnu/libblas.so;-llua;-lmjson;/scr/studyztp/experiments/lsms/nugget-protocol-lsms/cbuild/external/libxc-build/libxc.a
+-- GLOBAL_LIB_INCLUDES: -I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/cbuild/_deps/fmt-src/include;-Iinclude;-I/usr/include/hdf5/serial;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/external/lua-5.2.4/src;-I/usr/include;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/external/mjson/;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/cbuild/external/libxc-6.1.0/src;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/cbuild/external/libxc-build/src;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/cbuild/external/libxc-build
+-- GLOBAL_LIB_OPTIONS: -fopenmp
+-- temp_library_target_list: fmt::fmt;Threads::Threads;OpenMP::OpenMP_CXX;MPI::MPI_CXX;HDF5::HDF5;LAPACK::LAPACK;BLAS::BLAS;Lua::Lua;mjson;libxc::libxc
+-- GLOBAL_INCLUDES: -I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/Accelerator;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/Communication;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/Core;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/Kubo;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/ChargeDensity;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/LuaInterface;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/Main;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/Madelung;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/MultipoleMadelung;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/Mixer;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/Misc;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/MultipleScattering;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/Potential;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/RadialGrid;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/SingleSite;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/TotalEnergy;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/src/VORPOL;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/include;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/nugget_util/hook_helper/c_hooks/nugget;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/experiments/cmake/../../nugget_util/hook_helper/other_tools/papi/aarch64/include
+-- GLOBAL_DEFINITION: -DMST_LINEAR_SOLVER_DEFAULT=0x0005;-DMST_BUILD_KKR_MATRIX_DEFAULT=0x1000;-DUSE_LIBXC;-DHAS_BACKTRACE
+-- GLOBAL_COMPILE_OPTIONS: 
+-- GLOBAL_COMPILE_FLAGS: 
+-- GLOBAL_C_FLAGS: -std=c11
+-- GLOBAL_CXX_FLAGS: -O3;-mtune=native;-mcpu=native;-std=c++17
+-- GLOBAL_Fortran_FLAGS: -O3;-mcpu=native
+-- GLOBAL_LIB_LINKING_LIB_PATHS: -L/scr/studyztp/experiments/lsms/nugget-protocol-lsms/cbuild/_deps/fmt-build;-L/scr/studyztp/experiments/lsms/nugget-protocol-lsms/cbuild
+-- GLOBAL_LIB_LINKING_LIBS: -lfmt;/usr/lib/gcc/aarch64-linux-gnu/13/libgomp.so;/usr/lib/aarch64-linux-gnu/libpthread.a;/usr/lib/aarch64-linux-gnu/hdf5/serial/libhdf5.so;/usr/lib/aarch64-linux-gnu/libcrypto.so;/usr/lib/aarch64-linux-gnu/libcurl.so;/usr/lib/aarch64-linux-gnu/libsz.so;/usr/lib/aarch64-linux-gnu/libz.so;/usr/lib/aarch64-linux-gnu/libdl.a;/usr/lib/aarch64-linux-gnu/libm.so;/usr/lib/aarch64-linux-gnu/liblapack.so;/usr/lib/aarch64-linux-gnu/libblas.so;-llua;-lmjson;/scr/studyztp/experiments/lsms/nugget-protocol-lsms/cbuild/external/libxc-build/libxc.a
+-- GLOBAL_LIB_INCLUDES: -I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/cbuild/_deps/fmt-src/include;-Iinclude;-I/usr/include/hdf5/serial;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/external/lua-5.2.4/src;-I/usr/include;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/lsms/external/mjson/;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/cbuild/external/libxc-6.1.0/src;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/cbuild/external/libxc-build/src;-I/scr/studyztp/experiments/lsms/nugget-protocol-lsms/cbuild/external/libxc-build
+-- GLOBAL_LIB_OPTIONS: -fopenmp
+-- Configuring done (5.0s)
+-- Generating done (0.3s)
+-- Build files have been written to: /scr/studyztp/experiments/lsms/nugget-protocol-lsms/cbuild

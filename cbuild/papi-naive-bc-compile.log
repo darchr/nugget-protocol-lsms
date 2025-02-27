@@ -1,0 +1,9 @@
+[  0%] Built target lsms_papi_naive_bc_hook_ir
+[  0%] Built target mjson
+[  0%] Built target fmt
+[100%] Built target lua
+[100%] Linking LLVM IR files into BC file /scr/studyztp/experiments/lsms/nugget-protocol-lsms/cbuild/llvm-bc/lsms_papi_naive_bc_hook_bc/lsms_papi_naive_bc_hook_bc.bc
+[100%] Built target lsms_papi_naive_bc_source_bc
+[100%] Built target lsms_papi_naive_bc_hook_bc
+[100%] Linking LLVM IR files into BC file /scr/studyztp/experiments/lsms/nugget-protocol-lsms/cbuild/llvm-bc/lsms_papi_naive_bc/lsms_papi_naive_bc.bc
+[100%] Built target lsms_papi_naive_bc
