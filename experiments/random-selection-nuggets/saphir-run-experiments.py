@@ -21,9 +21,11 @@ def run_this(run_ball):
     # cset proc --exec --set=measurement/core_32 --
     command = ["cset", "proc","--exec", f"--set={cpuset_name}{str(core)}", "--" ] + command
 
-    run_dir.mkdir(parents=True, exist_ok=False)
+    run_dir.mkdir(parents=True, exist_ok=True)
 
     input_dir = Path(input_dir)
+
+    print(f"copying input file for {run_dir}")
     
     input_files = []
     for file_path in input_dir.iterdir():
