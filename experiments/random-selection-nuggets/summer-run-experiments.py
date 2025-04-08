@@ -21,13 +21,17 @@ def run_this(run_ball):
     # cset proc --exec --set=measurement/core_32 --
     command = ["cset", "proc","--exec", f"--set={cpuset_name}{str(core)}", "--" ] + command
 
-    run_dir.mkdir(parents=True, exist_ok=False)
+    run_dir.mkdir(parents=True, exist_ok=True)
+
+    input_dir = Path(input_dir)
     
     input_files = []
     for file_path in input_dir.iterdir():
         if file_path.is_file():
             shutil.copy(file_path, run_dir / file_path.name)
             input_files.append(Path(run_dir / file_path.name))
+
+    print(f"running {command} in {run_dir} with core {core}")
 
     env = os.environ.copy()  # Ensure environment variables are available
     with open(run_dir / run_log_file, "w") as log_file, open(run_dir / run_err_file, "w") as err_file:
@@ -36,9 +40,10 @@ def run_this(run_ball):
     if result.returncode != 0:
         print("Error running command: ", command)
         print("Error at core: ", core)
-        failed_list_global.append([core, command])
+        print(f"Error at {run_dir}")
+        failed_list_global.append([core, command, str(run_dir)])
     else:
-        print(f"Command {command} ran successfully on core {core}")
+        print(f"Command {command} ran successfully on core {core} at {run_dir}")
 
     for file_path in input_files:
         file_path.unlink()
@@ -51,7 +56,7 @@ def init_worker(core_queue, failed_list):
     failed_list_global = failed_list
 
 def main():
-    papi_events = "PAPI_BR_MSP,PAPI_TOT_INS,PAPI_L2_DCM,PAPI_L2_DCR,PAPI_TOT_CYC"
+    papi_events = "PAPI_TOT_INS, PAPI_BR_INS, PAPI_TOT_CYC, PAPI_SYC_INS, PAPI_BR_MSP"
     env = os.environ.copy()
     env['PAPI_EVENTS'] = papi_events
     env["OMP_NUM_THREADS"] = "1"

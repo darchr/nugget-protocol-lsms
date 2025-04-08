@@ -42,9 +42,10 @@ def run_this(run_ball):
     if result.returncode != 0:
         print("Error running command: ", command)
         print("Error at core: ", core)
-        failed_list_global.append([core, command])
+        print(f"Error at {run_dir}")
+        failed_list_global.append([core, command, str(run_dir)])
     else:
-        print(f"Command {command} ran successfully on core {core}")
+        print(f"Command {command} ran successfully on core {core} at {run_dir}")
 
     for file_path in input_files:
         file_path.unlink()
@@ -57,7 +58,7 @@ def init_worker(core_queue, failed_list):
     failed_list_global = failed_list
 
 def main():
-    papi_events = "PAPI_BR_MSP,PAPI_TOT_INS,PAPI_L2_DCM,PAPI_L2_DCR,PAPI_TOT_CYC"
+    papi_events = "PAPI_TOT_INS, PAPI_BR_INS, PAPI_TOT_CYC, PAPI_SYC_INS, PAPI_BR_MSP"
     env = os.environ.copy()
     env['PAPI_EVENTS'] = papi_events
     env["OMP_NUM_THREADS"] = "1"
