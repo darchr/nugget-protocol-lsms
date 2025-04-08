@@ -22,12 +22,16 @@ def run_this(run_ball):
     command = ["cset", "proc","--exec", f"--set={cpuset_name}{str(core)}", "--" ] + command
 
     run_dir.mkdir(parents=True, exist_ok=False)
+
+    input_dir = Path(input_dir)
     
     input_files = []
     for file_path in input_dir.iterdir():
         if file_path.is_file():
             shutil.copy(file_path, run_dir / file_path.name)
             input_files.append(Path(run_dir / file_path.name))
+
+    print(f"running {command} in {run_dir} with core {core}")
 
     env = os.environ.copy()  # Ensure environment variables are available
     with open(run_dir / run_log_file, "w") as log_file, open(run_dir / run_err_file, "w") as err_file:
@@ -64,6 +68,7 @@ def main():
         '128_129', '130_131', '132_133', '134_135', '136_137', '138_139', '140_141',
         '142_143', '144_145', '146_147', '148_149', '150_151', '152_153', '154_155',
         '156_157', '158_159']
+    
     max_threads = len(cores)
 
     core_queue = multiprocessing.Queue()
