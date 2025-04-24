@@ -18,7 +18,7 @@ def run_this(run_ball):
     dir = run_ball["dir"]
     env = run_ball["env"]
     input_dir = run_ball["input_dir"]
-
+    dir = Path(dir)
     input_dir = Path(input_dir)
 
     input_files = []
