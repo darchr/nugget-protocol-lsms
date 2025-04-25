@@ -6,3 +6,5 @@ set(HOOK_TARGET papi-naive)
 
 set(SOURCE_BC_FILE_PATH
     "${CMAKE_CURRENT_BINARY_DIR}/llvm-bc/lsms_ir_bb_analysis_bc_source_opted_bc/lsms_ir_bb_analysis_bc_source_opted_bc.bc")
+
+list(APPEND EXTRA_LIB_PATHS ${PAPI_LIB})

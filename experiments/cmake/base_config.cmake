@@ -40,13 +40,13 @@ set(Fortran_LIBS
     -lFortranRuntime 
     -lFortranDecimal 
     -lFortran_main 
-    -lflangFrontend 
+    -lflangFrontend
 )
 
 set(PAPI_LIB "${NUGGET_HOOKS_PATH}/other_tools/papi/aarch64/lib/libpapi.a")
 
 set(EXTRA_FLAGS "-DUSE_NUGGET_LIB")
-set(EXTRA_LIBS ${MPI_LIBS} ${Fortran_LIBS} ${PAPI_LIB})
+set(EXTRA_LIBS ${MPI_LIBS} ${Fortran_LIBS})
 set(EXTRA_LIB_PATHS ${MPI_LIB_PATHS} ${Fortran_LIB_PATHS})
 set(EXTRA_INCLUDES ${MPI_INCLUDES})
 

@@ -26,5 +26,5 @@ endif()
 if(LLC_CMD)
     list(APPEND LLC_CMD -relocation-model=pic -O2)
 endif()
-
+list(APPEND EXTRA_LIB_PATHS ${PAPI_LIB})
 message(STATUS "LLC_CMD: ${LLC_CMD}")

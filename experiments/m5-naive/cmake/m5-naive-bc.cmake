@@ -7,6 +7,6 @@ set(HOOK_TARGET m5-naive)
 set(SOURCE_BC_FILE_PATH
     "${CMAKE_CURRENT_BINARY_DIR}/llvm-bc/lsms_ir_bb_analysis_bc_source_opted_bc/lsms_ir_bb_analysis_bc_source_opted_bc.bc")
 
-set(EXTRA_LIB_PATHS -L${M5_PATH})
-set(EXTRA_INCLUDES -I${M5_INCLUDE_PATH})
-set(EXTRA_LIBS -lm5)
+list(APPEND EXTRA_LIB_PATHS -L${M5_PATH})
+list(APPEND EXTRA_INCLUDES -I${M5_INCLUDE_PATH})
+list(APPEND EXTRA_LIBS -lm5)
