@@ -1,0 +1,2 @@
+  cset proc --exec --set=measurement/54_55 -- mpirun -n 1 /scr/studyztp/experiments/nugget-gem5/nugget-protocol-lsms/cbuild/llvm-exec/lsms_papi_naive_exe/lsms_papi_naive_exe i_lsms
+  cset proc --exec --set=measurement/52_53 -- mpirun -n 1 /scr/studyztp/experiments/nugget-gem5/nugget-protocol-lsms/cbuild/llvm-exec/lsms_papi_naive_exe/lsms_papi_naive_exe i_lsms
