@@ -83,9 +83,10 @@ def init_worker(core_queue, failed_list):
     failed_list_global = failed_list
 
 def main():
-    cores = ["21_23", "24_26", "27_29", "30_32", "33_35", "36_38", "39_41", "42_44",
-             "45_47", "48_50", "51_53", "54_56", "57_59", "60_62", "63_65", "66_68",
-             "69_71", "72_74", "75_77"]
+    cores = [ "22_23", "24_25", "26_27", "28_29", "30_31", "32_33", "34_35",
+              "38_39", "40_41", "42_43", "44_45", "46_47", "48_49", "50_51",
+              "54_55", "56_57", "60_61", "62_63", "64_65", "66_67",
+              "70_71", "72_73", "74_75", "76_77", "78_79"]
     max_threads = len(cores)
 
     core_queue = multiprocessing.Queue()
@@ -103,7 +104,7 @@ def main():
     env["LD_LIBRARY_PATH"] += f"{workdir}/nugget_util/hook_helper/other_tools/papi/aarch64/lib"
 
     workdir = Path().cwd()
-    runs_range = (0, 2)
+    runs_range = (0, 5)
     experiments_dir = Path(workdir/"experiments/ir-bb-analysis")
     experiments_dir.mkdir(parents=True, exist_ok=True)
 

@@ -83,7 +83,7 @@ def init_worker(core_queue, failed_list):
     failed_list_global = failed_list
 
 def main():
-    cores = ["58_59", "54_55"]
+    cores = ["20_21", "36_37", "52_53","68_69", "58_59"]
     max_threads = len(cores)
 
     core_queue = multiprocessing.Queue()
@@ -101,7 +101,7 @@ def main():
     env["LD_LIBRARY_PATH"] += f"{workdir}/nugget_util/hook_helper/other_tools/papi/aarch64/lib"
 
     workdir = Path().cwd()
-    runs_range = (0, 2)
+    runs_range = (0, 5)
     experiments_dir = Path(workdir/"experiments/papi-naive")
     experiments_dir.mkdir(parents=True, exist_ok=True)
 
