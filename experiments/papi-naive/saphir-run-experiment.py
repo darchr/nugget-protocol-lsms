@@ -102,7 +102,7 @@ def main():
     env["PAPI_EVENTS"] = "PAPI_BR_MSP,PAPI_TOT_INS,PAPI_L2_DCM,PAPI_L2_DCR,PAPI_TOT_CYC"
     workdir = Path().cwd()
     runs_range = (0, 5)
-    experiments_dir = Path(workdir/"experiments/papi-naive")
+    experiments_dir = Path(workdir/"experiments/papi-naive/saphir-experiments")
     experiments_dir.mkdir(parents=True, exist_ok=True)
 
     all_run_balls = []
