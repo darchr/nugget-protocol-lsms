@@ -104,7 +104,7 @@ def main():
     env["LD_LIBRARY_PATH"] += f"{workdir}/nugget_util/hook_helper/other_tools/papi/aarch64/lib"
     env["PAPI_EVENTS"] = "PAPI_BR_MSP,PAPI_TOT_INS,PAPI_L2_DCM,PAPI_L2_DCR,PAPI_TOT_CYC"
     workdir = Path().cwd()
-    runs_range = (0, 5)
+    runs_range = (0, 1)
     experiments_dir = Path(workdir/"experiments/papi-nuggets/saphir-experiments")
     experiments_dir.mkdir(parents=True, exist_ok=True)
 
