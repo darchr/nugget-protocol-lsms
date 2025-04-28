@@ -35,30 +35,9 @@ def main():
     current_dir = Path().cwd()
     cbuild_dir = Path(current_dir/"cbuild/llvm-exec")
     print(cbuild_dir)
-    for dir in cbuild_dir.glob("m5_nugget_exe_*"):
+    for dir in cbuild_dir.glob("lsms_m5_nuggets_exe_*"):
         # Check that the file exists and is executable.
-        for exe in Path(dir).glob("m5_nugget_exe_*"):
-            if exe.is_file() and os.access(exe, os.X_OK):
-                end_addr = get_marker_address(exe, "End_Marker")
-                start_addr = get_marker_address(exe, "Start_Marker")
-                result_dict[exe.name] = {
-                    "end_marker_addr": end_addr,
-                    "start_marker_addr": start_addr
-                }
-    for dir in cbuild_dir.glob("m5_nugget_intel_exe_*"):
-        # Check that the file exists and is executable.
-        for exe in Path(dir).glob("m5_nugget_intel_exe_*"):
-            if exe.is_file() and os.access(exe, os.X_OK):
-                end_addr = get_marker_address(exe, "End_Marker")
-                start_addr = get_marker_address(exe, "Start_Marker")
-                result_dict[exe.name] = {
-                    "end_marker_addr": end_addr,
-                    "start_marker_addr": start_addr
-                }
-
-    for dir in cbuild_dir.glob("m5_nugget_4_threads_exe_*"):
-        # Check that the file exists and is executable.
-        for exe in Path(dir).glob("m5_nugget_4_threads_exe_*"):
+        for exe in Path(dir).glob("lsms_m5_nuggets_exe_*"):
             if exe.is_file() and os.access(exe, os.X_OK):
                 end_addr = get_marker_address(exe, "End_Marker")
                 start_addr = get_marker_address(exe, "Start_Marker")
