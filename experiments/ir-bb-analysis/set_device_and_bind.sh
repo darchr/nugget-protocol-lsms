@@ -1,1 +1,0 @@
-../input/set_device_and_bind.sh
