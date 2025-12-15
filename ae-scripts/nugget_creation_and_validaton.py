@@ -51,106 +51,126 @@ def build_all(lsms_root: Path, experiment_name: str, grace: float, architecture:
 		base.update(extra)
 		return base
 
+	bc_built = False
+	exe_built = False
+
 	# k-means nugget bc
-	run_command(
-		["cmake", f"-DCMAKE_TOOLCHAIN_FILE={ae_cmake}/lsms-toolchain-generic-cpu.cmake", f"{lsms_root}/lsms"],
-		cwd=build_dir,
-		env=cmake_env(
-			{
-				"NUGGET_PROCESS_TYPE": "lsms-nugget-bc",
-				"NUGGET_CONFIG_FILE": str(
-					lsms_root / "ae-cmake"/ "papi-nugget" / "cmake" / "papi-nugget-bc.cmake"
-				),
-				"ALL_NUGGET_RIDS_FILE": str(k_means_sample_file),
-				"MARKER_DIR": str(markers_root),
-				"BB_INFO_INPUT_PATH": str(bb_info_file),
-				"SOURCE_BC_FILE_PATH": str(source_bc_dir),
-			}
-		),
-	)
-	run_command(["cmake", "--build", ".", "--target=papi_nugget_bc"], cwd=build_dir)
+	if Path(build_dir / f"llvm-bc/papi_nugget_bc/papi_nugget_bc.bc").is_file():
+		bc_built = True
+		print("Nugget BC already built; skipping rebuild.")
+	else:
+		run_command(
+			["cmake", f"-DCMAKE_TOOLCHAIN_FILE={ae_cmake}/lsms-toolchain-generic-cpu.cmake", f"{lsms_root}/lsms"],
+			cwd=build_dir,
+			env=cmake_env(
+				{
+					"NUGGET_PROCESS_TYPE": "lsms-nugget-bc",
+					"NUGGET_CONFIG_FILE": str(
+						lsms_root / "ae-cmake"/ "papi-nugget" / "cmake" / "papi-nugget-bc.cmake"
+					),
+					"ALL_NUGGET_RIDS_FILE": str(k_means_sample_file),
+					"MARKER_DIR": str(markers_root),
+					"BB_INFO_INPUT_PATH": str(bb_info_file),
+					"SOURCE_BC_FILE_PATH": str(source_bc_dir),
+				}
+			),
+		)
+		run_command(["cmake", "--build", ".", "--target=papi_nugget_bc"], cwd=build_dir)
 
 	# nugget exe
-	run_command(
-		["cmake", f"-DCMAKE_TOOLCHAIN_FILE={ae_cmake}/lsms-toolchain-generic-cpu.cmake", f"{lsms_root}/lsms"],
-		cwd=build_dir,
-		env=cmake_env(
-			{
-				"NUGGET_PROCESS_TYPE": "lsms-nugget-exe",
-				"NUGGET_CONFIG_FILE": str(
-					lsms_root / "ae-cmake"/ "papi-nugget" / "cmake" / "papi-nugget-exe.cmake"
-				),
-				"ALL_NUGGET_RIDS_FILE": str(k_means_sample_file),
-			}
-		),
-	)
-	run_command(["cmake", "--build", ".", f"--target=papi_nugget_{architecture}_exe"], cwd=build_dir)
+	if Path(build_dir / f"llvm-exec/papi_nugget_{architecture}_exe/papi_nugget_{architecture}_exe").is_file():
+		exe_built = True
+		print("Nugget EXE already built; skipping rebuild.")
+	else:
+		run_command(
+			["cmake", f"-DCMAKE_TOOLCHAIN_FILE={ae_cmake}/lsms-toolchain-generic-cpu.cmake", f"{lsms_root}/lsms"],
+			cwd=build_dir,
+			env=cmake_env(
+				{
+					"NUGGET_PROCESS_TYPE": "lsms-nugget-exe",
+					"NUGGET_CONFIG_FILE": str(
+						lsms_root / "ae-cmake"/ "papi-nugget" / "cmake" / "papi-nugget-exe.cmake"
+					),
+					"ALL_NUGGET_RIDS_FILE": str(k_means_sample_file),
+				}
+			),
+		)
+		run_command(["cmake", "--build", ".", f"--target=papi_nugget_{architecture}_exe"], cwd=build_dir)
 
     # random nugget bc
-	run_command(
-		["cmake", f"-DCMAKE_TOOLCHAIN_FILE={ae_cmake}/lsms-toolchain-generic-cpu.cmake", f"{lsms_root}/lsms"],
-		cwd=build_dir,
-		env=cmake_env(
-			{
-				"NUGGET_PROCESS_TYPE": "lsms-nugget-bc",
-				"NUGGET_CONFIG_FILE": str(
-					lsms_root / "ae-cmake"/ "papi-nugget" / "cmake" / "papi-nugget-bc.cmake"
-				),
-				"ALL_NUGGET_RIDS_FILE": str(random_sample_file),
-				"MARKER_DIR": str(markers_root),
-				"BB_INFO_INPUT_PATH": str(bb_info_file),
-				"SOURCE_BC_FILE_PATH": str(source_bc_dir),
-			}
-		),
-	)
-	run_command(["cmake", "--build", ".", "--target=papi_nugget_bc"], cwd=build_dir)
+	if not bc_built:
+		run_command(
+			["cmake", f"-DCMAKE_TOOLCHAIN_FILE={ae_cmake}/lsms-toolchain-generic-cpu.cmake", f"{lsms_root}/lsms"],
+			cwd=build_dir,
+			env=cmake_env(
+				{
+					"NUGGET_PROCESS_TYPE": "lsms-nugget-bc",
+					"NUGGET_CONFIG_FILE": str(
+						lsms_root / "ae-cmake"/ "papi-nugget" / "cmake" / "papi-nugget-bc.cmake"
+					),
+					"ALL_NUGGET_RIDS_FILE": str(random_sample_file),
+					"MARKER_DIR": str(markers_root),
+					"BB_INFO_INPUT_PATH": str(bb_info_file),
+					"SOURCE_BC_FILE_PATH": str(source_bc_dir),
+				}
+			),
+		)
+		run_command(["cmake", "--build", ".", "--target=papi_nugget_bc"], cwd=build_dir)
 
 	# nugget exe
-	run_command(
-		["cmake", f"-DCMAKE_TOOLCHAIN_FILE={ae_cmake}/lsms-toolchain-generic-cpu.cmake", f"{lsms_root}/lsms"],
-		cwd=build_dir,
-		env=cmake_env(
-			{
-				"NUGGET_PROCESS_TYPE": "lsms-nugget-exe",
-				"NUGGET_CONFIG_FILE": str(
-					lsms_root / "ae-cmake"/ "papi-nugget" / "cmake" / "papi-nugget-exe.cmake"
-				),
-				"ALL_NUGGET_RIDS_FILE": str(random_sample_file),
-			}
-		),
-	)
-	run_command(["cmake", "--build", ".", f"--target=papi_nugget_{architecture}_exe"], cwd=build_dir)
+	if not exe_built:
+		run_command(
+			["cmake", f"-DCMAKE_TOOLCHAIN_FILE={ae_cmake}/lsms-toolchain-generic-cpu.cmake", f"{lsms_root}/lsms"],
+			cwd=build_dir,
+			env=cmake_env(
+				{
+					"NUGGET_PROCESS_TYPE": "lsms-nugget-exe",
+					"NUGGET_CONFIG_FILE": str(
+						lsms_root / "ae-cmake"/ "papi-nugget" / "cmake" / "papi-nugget-exe.cmake"
+					),
+					"ALL_NUGGET_RIDS_FILE": str(random_sample_file),
+				}
+			),
+		)
+		run_command(["cmake", "--build", ".", f"--target=papi_nugget_{architecture}_exe"], cwd=build_dir)
+
 	# naive bc
-	run_command(
-		["cmake", f"-DCMAKE_TOOLCHAIN_FILE={ae_cmake}/lsms-toolchain-generic-cpu.cmake", f"{lsms_root}/lsms"],
-		cwd=build_dir,
-		env=cmake_env(
-			{
-				"NUGGET_PROCESS_TYPE": "lsms-naive-bc",
-				"NUGGET_CONFIG_FILE": str(
-					lsms_root / "ae-cmake"/ "papi-naive" / "cmake" / "papi-naive-bc.cmake"
-				),
-				"SOURCE_BC_FILE_PATH": Path(build_dir/"llvm-bc").as_posix(),
-			}
-		),
-	)
-	run_command(["cmake", "--build", ".", "--target=lsms_papi_naive_bc"], cwd=build_dir)
+	if Path(build_dir / f"llvm-bc/lsms_papi_naive_bc/lsms_papi_naive_bc.bc").is_file():
+		print("Naive BC already built; skipping rebuild.")
+	else:
+		run_command(
+			["cmake", f"-DCMAKE_TOOLCHAIN_FILE={ae_cmake}/lsms-toolchain-generic-cpu.cmake", f"{lsms_root}/lsms"],
+			cwd=build_dir,
+			env=cmake_env(
+				{
+					"NUGGET_PROCESS_TYPE": "lsms-naive-bc",
+					"NUGGET_CONFIG_FILE": str(
+						lsms_root / "ae-cmake"/ "papi-naive" / "cmake" / "papi-naive-bc.cmake"
+					),
+					"SOURCE_BC_FILE_PATH": Path(build_dir/"llvm-bc").as_posix(),
+				}
+			),
+		)
+		run_command(["cmake", "--build", ".", "--target=lsms_papi_naive_bc"], cwd=build_dir)
 
 	# naive exe
-	run_command(
-		["cmake", f"-DCMAKE_TOOLCHAIN_FILE={ae_cmake}/lsms-toolchain-generic-cpu.cmake", f"{lsms_root}/lsms"],
-		cwd=build_dir,
-		env=cmake_env(
-			{
-				"NUGGET_PROCESS_TYPE": "lsms-naive-exe",
-				"NUGGET_CONFIG_FILE": str(
-					lsms_root / "ae-cmake"/ "papi-naive" / "cmake" / "papi-naive-exe.cmake"
-				),
-				"BC_FILE_PATH": Path(build_dir/"llvm-bc/lsms_papi_naive_bc/lsms_papi_naive_bc.bc").as_posix(),
-			}
-		),
-	)
-	run_command(["cmake", "--build", ".", f"--target=lsms_papi_naive_{architecture}_exe"], cwd=build_dir)
+	if Path(build_dir / f"llvm-exec/lsms_papi_naive_{architecture}_exe/lsms_papi_naive_{architecture}_exe").is_file():
+		print("Naive EXE already built; skipping rebuild.")
+	else:
+		run_command(
+			["cmake", f"-DCMAKE_TOOLCHAIN_FILE={ae_cmake}/lsms-toolchain-generic-cpu.cmake", f"{lsms_root}/lsms"],
+			cwd=build_dir,
+			env=cmake_env(
+				{
+					"NUGGET_PROCESS_TYPE": "lsms-naive-exe",
+					"NUGGET_CONFIG_FILE": str(
+						lsms_root / "ae-cmake"/ "papi-naive" / "cmake" / "papi-naive-exe.cmake"
+					),
+					"BC_FILE_PATH": Path(build_dir/"llvm-bc/lsms_papi_naive_bc/lsms_papi_naive_bc.bc").as_posix(),
+				}
+			),
+		)
+		run_command(["cmake", "--build", ".", f"--target=lsms_papi_naive_{architecture}_exe"], cwd=build_dir)
 
 def measure_binary(bin_path: Path, workdir: Path, perf_combos: list[list[str]], input_directory: Path, input_command: str) -> dict[str, float]:
 	env = os.environ.copy()
@@ -202,9 +222,10 @@ def measure_binary(bin_path: Path, workdir: Path, perf_combos: list[list[str]], 
 
 def find_nugget_binaries(llvm_exec: Path, architecture: str):
 	nuggets = []
+	offset = architecture.count("_")
 	for p in llvm_exec.glob(f"papi_nugget_{architecture}_exe_*"):
 		parts = p.name.split("_")
-		rid = parts[4]
+		rid = parts[4 + offset]
 		exe_path = p / p.name if p.is_dir() else p
 		nuggets.append((rid, exe_path))
 	nuggets.sort(key=lambda x: int(x[0]))
