@@ -7,54 +7,57 @@ import shutil
 import subprocess
 import time
 from pathlib import Path
+import sys
 
 def run_command(cmd, cwd, env=None, stdout=None, stderr=None):
     print(f"Running: {' '.join(map(str, cmd))} (cwd={cwd})")
     subprocess.run(cmd, cwd=cwd, env=env, check=True, stdout=stdout, stderr=stderr)
 
 
-def build_targets(lsms_root: Path, region_length: int):
+def build_targets(lsms_root: Path, region_length: int, architecture: str):
     ae_cbuild = lsms_root / "ae-cbuild"
     ae_cbuild.mkdir(parents=True, exist_ok=True)
     ae_cmake = lsms_root / "ae-cmake"
 
-    ir_bb_bc_env = os.environ.copy()
-    ir_bb_bc_env["NUGGET_PROCESS_TYPE"] = "lsms-ir-bb-analysis-bc"
-    ir_bb_bc_env["REGION_LENGTH"] = str(region_length)
-    ir_bb_bc_env["NUGGET_CONFIG_FILE"] = str(
-        lsms_root
-        / "ae-cmake"
-        / "ir-bb-analysis"
-        / "cmake"
-        / "ir-bb-analysis-bc.cmake"
-    )
+    if not Path(ae_cbuild/f"llvm-bc/lsms_ir_bb_analysis_bc/lsms_ir_bb_analysis_bc.bc").is_file():
+        ir_bb_bc_env = os.environ.copy()
+        ir_bb_bc_env["NUGGET_PROCESS_TYPE"] = "lsms-ir-bb-analysis-bc"
+        ir_bb_bc_env["REGION_LENGTH"] = str(region_length)
+        ir_bb_bc_env["NUGGET_CONFIG_FILE"] = str(
+            lsms_root
+            / "ae-cmake"
+            / "ir-bb-analysis"
+            / "cmake"
+            / "ir-bb-analysis-bc.cmake"
+        )
 
-    run_command(["cmake", f"-DCMAKE_TOOLCHAIN_FILE={ae_cmake}/lsms-toolchain-generic-cpu.cmake", f"{lsms_root}/lsms" ], cwd=ae_cbuild, env=ir_bb_bc_env)
-    run_command(["cmake", "--build", ".", "--target=lsms_ir_bb_analysis_bc"], cwd=ae_cbuild)
+        run_command(["cmake", f"-DCMAKE_TOOLCHAIN_FILE={ae_cmake}/lsms-toolchain-generic-cpu.cmake", f"{lsms_root}/lsms" ], cwd=ae_cbuild, env=ir_bb_bc_env)
+        run_command(["cmake", "--build", ".", "--target=lsms_ir_bb_analysis_bc"], cwd=ae_cbuild)
 
-    ir_bb_exe_env = os.environ.copy()
-    ir_bb_exe_env["NUGGET_PROCESS_TYPE"] = "lsms-ir-bb-analysis-exe"
-    ir_bb_exe_env["NUGGET_CONFIG_FILE"] = str(
-        lsms_root
-        / "ae-cmake"
-        / "ir-bb-analysis"
-        / "cmake"
-        / "ir-bb-analysis-exe.cmake"
-    )
+    if not Path(ae_cbuild/f"llvm-exec/lsms_ir_bb_analysis_{architecture}_exe/lsms_ir_bb_analysis_{architecture}_exe").is_file():
+        ir_bb_exe_env = os.environ.copy()
+        ir_bb_exe_env["NUGGET_PROCESS_TYPE"] = "lsms-ir-bb-analysis-exe"
+        ir_bb_exe_env["NUGGET_CONFIG_FILE"] = str(
+            lsms_root
+            / "ae-cmake"
+            / "ir-bb-analysis"
+            / "cmake"
+            / "ir-bb-analysis-exe.cmake"
+        )
 
-    run_command(["cmake", f"-DCMAKE_TOOLCHAIN_FILE={ae_cmake}/lsms-toolchain-generic-cpu.cmake", f"{lsms_root}/lsms" ], cwd=ae_cbuild, env=ir_bb_exe_env)
-    run_command(["cmake", "--build", ".", "--target=lsms_ir_bb_analysis_exe"], cwd=ae_cbuild)
+        run_command(["cmake", f"-DCMAKE_TOOLCHAIN_FILE={ae_cmake}/lsms-toolchain-generic-cpu.cmake", f"{lsms_root}/lsms" ], cwd=ae_cbuild, env=ir_bb_exe_env)
+        run_command(["cmake", "--build", ".", f"--target=lsms_ir_bb_analysis_{architecture}_exe"], cwd=ae_cbuild)
 
     return ae_cbuild
 
-def run_analyses(lsms_root: Path, llvm_exe_dir: Path, input_directory: Path, input_command: str):
-    binary = Path(llvm_exe_dir/"lsms_ir_bb_analysis_exe/lsms_ir_bb_analysis_exe")
+def run_analyses(lsms_root: Path, llvm_exe_dir: Path, input_directory: Path, input_command: str, architecture: str):
+    binary = Path(llvm_exe_dir/f"lsms_ir_bb_analysis_{architecture}_exe/lsms_ir_bb_analysis_{architecture}_exe")
 
     ae_experiments = lsms_root / "ae-experiments"
-    analysis_dir = ae_experiments / "analysis"
+    analysis_dir = ae_experiments / "analysis" 
     analysis_dir.mkdir(parents=True, exist_ok=True)
 
-    target_dir = analysis_dir / f"{input_command}"
+    target_dir = analysis_dir / input_command / architecture
     target_dir.mkdir(parents=True, exist_ok=True)
 
     shutil.copytree(input_directory, target_dir, dirs_exist_ok=True)
@@ -91,8 +94,8 @@ def parse_args():
     parser.add_argument(
         "--input-directory",
         "-r",
-        default="ae-script/input",
-        help="Relative path to input directory from project root. (default: 'ae-script/input')",
+        default="ae-scripts/input",
+        help="Relative path to input directory from project root. (default: 'ae-scripts/input')",
     )
     parser.add_argument(
         "--input-command",
@@ -107,6 +110,13 @@ def parse_args():
         default=100_000_000,
         help="Region length for basic block profiling. (default: 100,000,000)",
     )
+    parser.add_argument(
+        "--architecture",
+        "-a",
+        type=str,
+        default=os.uname().machine,
+        help="Target architecture for the build (default: detected architecture)"
+    )
     return parser.parse_args()
 
 def main():
@@ -116,8 +126,11 @@ def main():
 
     if not lsms_root.is_dir():
         raise FileNotFoundError(f"Expected nugget-protocol-lsms under {project_dir}")
+    
+    architecture = args.architecture
+    print(f"Building for architecture: {architecture}")
 
-    ae_cbuild = build_targets(lsms_root, args.region_length)
+    ae_cbuild = build_targets(lsms_root, args.region_length, architecture)
     llvm_exec_dir = ae_cbuild / "llvm-exec"
 
     if not llvm_exec_dir.is_dir():
@@ -127,7 +140,7 @@ def main():
     if not input_directory.is_dir():
         raise FileNotFoundError(f"Expected input directory at {input_directory}")
 
-    run_analyses(lsms_root, llvm_exec_dir, input_directory=input_directory, input_command=args.input_command)
+    run_analyses(lsms_root, llvm_exec_dir, input_directory=input_directory, input_command=args.input_command, architecture=architecture)
 
     print(f"Project directory: {project_dir.as_posix()}; Input Directory: {input_directory.as_posix()};"
           f" Input Command: {args.input_command}; Region Length: {args.region_length}\n\n")

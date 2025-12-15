@@ -3,6 +3,7 @@
 
 import argparse
 import json
+import os
 import random
 import sys
 from multiprocessing import Pool
@@ -145,7 +146,8 @@ def parse_args():
 	parser.add_argument("--num-warmup-region", type=int, default=1, help="Number of warmup regions for marker creation. (default: 1)")
 	parser.add_argument("--num-projections", "-p", type=int, default=100, help="Number of projections for K-means clustering. (default: 100)")
 	parser.add_argument("--use-random-linear-projections", action="store_true", help="Use random linear projections for K-means clustering.")
-	parser.add_argument("--analysis-dir", "-a", default="i_lsms", help="Directory name under analysis results to use. (default: 'i_lsms')")
+	parser.add_argument("--analysis-dir", "-r", default="i_lsms", help="Directory name under analysis results to use. (default: 'i_lsms')")
+	parser.add_argument("--architecture", "-a", default=os.uname().machine, help="Architecture string used in binary names. (default: 'x86_64')")
 	return parser.parse_args()
 
 def main():
@@ -155,13 +157,16 @@ def main():
 
 	if not lsms_root.is_dir():
 		raise FileNotFoundError(f"Expected nugget-protocol-lsms under {project_dir}")
+	
+	architecture = args.architecture
+	print(f"Processing LSMS with architecture {architecture}")
 		
 	analysis_root = lsms_root / "ae-experiments" / "analysis" 
 	sample_root = lsms_root / "ae-experiments" / "sample-selection" 
 	markers_root = lsms_root / "ae-experiments" / "create-markers" / f"{args.grace_perc}"
 
-	bench_analysis_dir = analysis_root / args.analysis_dir
-	bench_markers_dir = markers_root / args.analysis_dir
+	bench_analysis_dir = analysis_root / args.analysis_dir / architecture
+	bench_markers_dir = markers_root / args.analysis_dir / architecture
 
 	if not bench_analysis_dir.is_dir():
 		raise FileNotFoundError(f"Expected analysis directory at {bench_analysis_dir}")
@@ -181,7 +186,7 @@ def main():
 		bench_bb_id_map,
 		bench_all_bbv,
 		bench_static_bb_info,
-		sample_root / f"k-means/{args.analysis_dir}",
+		sample_root / f"k-means/{args.analysis_dir}/{architecture}",
 		args.num_projections,
 		args.num_regions,
 		args.use_random_linear_projections
@@ -189,7 +194,7 @@ def main():
 	# Random selection
 	bench_random_selected_regions = create_random_selected_regions(
 		bench_total_regions,
-		sample_root / f"random/{args.analysis_dir}",
+		sample_root / f"random/{args.analysis_dir}/{architecture}",
 		args.num_regions,
 		args.random_seed
 	)
@@ -208,7 +213,7 @@ def main():
 		args.region_length
 	)
 
-	print(f"Finished processing LSMS with input command {args.analysis_dir}\n")
+	print(f"Finished processing LSMS with input command {args.analysis_dir} and architecture {architecture}\n")
 		
 if __name__ == "__main__":
 	main()

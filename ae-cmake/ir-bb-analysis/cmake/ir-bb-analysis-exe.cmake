@@ -5,7 +5,7 @@ list(APPEND CMAKE_MODULE_PATH "${NUGGET_LIBRARY_PATH}")
 include(Nugget)
 
 set(LLC_EXTRATION_FILE_PATH
-    ${NUGGET_UTIL_PATH}/cmake/check-cpu-features/llc-command.txt)
+    ${NUGGET_UTIL_PATH}/cmake/check-cpu-features/${TARGET_ARCH}/llc-command.txt)
 
 if(LLC_EXTRATION_FILE_PATH AND EXISTS ${LLC_EXTRATION_FILE_PATH})
     nugget_read_list(LLC_CMD ${LLC_EXTRATION_FILE_PATH})
@@ -30,4 +30,4 @@ endif()
 
 set(BC_FILE_BASENAME "lsms_ir_bb_analysis_bc")
 
-set(TARGET_NAME "lsms_ir_bb_analysis_exe")
+set(TARGET_NAME "lsms_ir_bb_analysis_${TARGET_ARCH}_exe")

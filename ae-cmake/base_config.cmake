@@ -27,7 +27,7 @@ set(M5_INCLUDE_PATH "${NUGGET_HOOKS_PATH}/other_tools/gem5/include")
 if(DEFINED ENV{LLVM_DIR} AND NOT "$ENV{LLVM_DIR}" STREQUAL "")
 	set(LLVM_DIR "$ENV{LLVM_DIR}")
 else()
-	set(LLVM_DIR "${CMAKE_CURRENT_LIST_DIR}/../../llvm-dir")
+	set(LLVM_DIR "${CMAKE_CURRENT_LIST_DIR}/../../llvm-dir/${TARGET_ARCH}")
 endif()
 set(LLVM_BIN "${LLVM_DIR}/bin")
 

@@ -35,14 +35,14 @@ def parse_benchmarks(text: str) -> list[str]:
 	return parts
 
 
-def build_all(lsms_root: Path, experiment_name: str, grace: float):
+def build_all(lsms_root: Path, experiment_name: str, grace: float, architecture: str, selection_architecture: str):
 	build_dir = lsms_root / "ae-cbuild"
 	build_dir.mkdir(parents=True, exist_ok=True)
 
-	k_means_sample_file = lsms_root / "ae-experiments" / "sample-selection" / "k-means" / f"{experiment_name}" / "selected-regions.txt"
-	random_sample_file = lsms_root / "ae-experiments" / "sample-selection" / "random" / f"{experiment_name}" / "selected-regions.txt"
-	markers_root = lsms_root / "ae-experiments" / "create-markers" / f"{grace}" / f"{experiment_name}/input-files"
-	bb_info_file = lsms_root / "ae-experiments" / "analysis" / f"{experiment_name}" / "basic-block-info.txt"
+	k_means_sample_file = lsms_root / "ae-experiments" / "sample-selection" / "k-means" / f"{experiment_name}" / selection_architecture / "selected-regions.txt"
+	random_sample_file = lsms_root / "ae-experiments" / "sample-selection" / "random" / f"{experiment_name}" / selection_architecture / "selected-regions.txt"
+	markers_root = lsms_root / "ae-experiments" / "create-markers" / f"{grace}" / f"{experiment_name}" / selection_architecture / "input-files"
+	bb_info_file = lsms_root / "ae-experiments" / "analysis" / f"{experiment_name}" / architecture / "basic-block-info.txt"
 	source_bc_dir = lsms_root / "ae-cbuild" / "llvm-bc"
 	ae_cmake = lsms_root / "ae-cmake"
 
@@ -84,7 +84,7 @@ def build_all(lsms_root: Path, experiment_name: str, grace: float):
 			}
 		),
 	)
-	run_command(["cmake", "--build", ".", "--target=papi_nugget_exe"], cwd=build_dir)
+	run_command(["cmake", "--build", ".", f"--target=papi_nugget_{architecture}_exe"], cwd=build_dir)
 
     # random nugget bc
 	run_command(
@@ -119,7 +119,7 @@ def build_all(lsms_root: Path, experiment_name: str, grace: float):
 			}
 		),
 	)
-	run_command(["cmake", "--build", ".", "--target=papi_nugget_exe"], cwd=build_dir)
+	run_command(["cmake", "--build", ".", f"--target=papi_nugget_{architecture}_exe"], cwd=build_dir)
 	# naive bc
 	run_command(
 		["cmake", f"-DCMAKE_TOOLCHAIN_FILE={ae_cmake}/lsms-toolchain-generic-cpu.cmake", f"{lsms_root}/lsms"],
@@ -150,7 +150,7 @@ def build_all(lsms_root: Path, experiment_name: str, grace: float):
 			}
 		),
 	)
-	run_command(["cmake", "--build", ".", "--target=lsms_papi_naive_exe"], cwd=build_dir)
+	run_command(["cmake", "--build", ".", f"--target=lsms_papi_naive_{architecture}_exe"], cwd=build_dir)
 
 def measure_binary(bin_path: Path, workdir: Path, perf_combos: list[list[str]], input_directory: Path, input_command: str) -> dict[str, float]:
 	env = os.environ.copy()
@@ -200,11 +200,11 @@ def measure_binary(bin_path: Path, workdir: Path, perf_combos: list[list[str]], 
 	averaged = {event: (sum(vals) / len(vals)) for event, vals in event_values.items() if vals}
 	return averaged
 
-def find_nugget_binaries(llvm_exec: Path):
+def find_nugget_binaries(llvm_exec: Path, architecture: str):
 	nuggets = []
-	for p in llvm_exec.glob(f"papi_nugget_exe_*"):
+	for p in llvm_exec.glob(f"papi_nugget_{architecture}_exe_*"):
 		parts = p.name.split("_")
-		rid = parts[3]
+		rid = parts[4]
 		exe_path = p / p.name if p.is_dir() else p
 		nuggets.append((rid, exe_path))
 	nuggets.sort(key=lambda x: int(x[0]))
@@ -256,10 +256,11 @@ def main():
 	parser.add_argument("--project_dir", "-d", required=True, help="Path to project root containing nugget-protocol-NPB")
 	parser.add_argument("--grace-perc", type=float, default=0.98, help="Grace percentage used in markers. (default: 0.98)")
 	parser.add_argument("--input-command", "-c", default="i_lsms", help="Input command to run LSMS. (default: 'i_lsms')")
-	parser.add_argument("--input-directory", "-r", default="ae-script/input", help="Relative path to input directory from project root. (default: 'ae-script/input')")
+	parser.add_argument("--input-directory", "-r", default="ae-scripts/input", help="Relative path to input directory from project root. (default: 'ae-scripts/input')")
 	parser.add_argument("--papi-combo-file-path", "-p", type=str, required=True, help="Path to papi event combination coverage file.")
 	parser.add_argument("--skip-build", action="store_true", help="Skip the build step if set.")
-	
+	parser.add_argument("--architecture", "-a", type=str, default=os.uname().machine, help="Target architecture for the build (default: detected architecture)")
+	parser.add_argument("--selection-architecture", "-s", type=str, default=os.uname().machine, help="Architecture string used in binary names for sample selection. (default: detected architecture)")
 	args = parser.parse_args()
 
 	project_dir = Path(args.project_dir).expanduser().resolve()
@@ -274,29 +275,34 @@ def main():
 	if not papi_combo_file.is_file():
 		raise FileNotFoundError(f"Expected papi combo file at {papi_combo_file}")
 	perf_combos = load_perf_combo(papi_combo_file)
+
+	architecture = args.architecture
+	print(f"Architecture: {architecture}")
+	selection_architecture = args.selection_architecture
+	print(f"Selection Architecture: {selection_architecture}")
 	
 	grace = args.grace_perc
 	if not args.skip_build:
-		build_all(lsms_root, input_command, grace)
+		build_all(lsms_root, input_command, grace, architecture, selection_architecture)
 
 	llvm_exec = lsms_root / "ae-cbuild" / "llvm-exec"
 	if not llvm_exec.is_dir():
 		raise FileNotFoundError(f"Expected llvm-exec at {llvm_exec}")
 
-	nugget_out_root = lsms_root / "ae-experiments" / "nugget-measurement" / input_command
-	naive_out_root = lsms_root / "ae-experiments" / "naive-measurement" / input_command
+	nugget_out_root = lsms_root / "ae-experiments" / "nugget-measurement" / input_command / architecture 
+	naive_out_root = lsms_root / "ae-experiments" / "naive-measurement" / input_command / architecture
 	nugget_out_root.mkdir(parents=True, exist_ok=True)
 	naive_out_root.mkdir(parents=True, exist_ok=True)
 
-	kmeans_root = lsms_root / "ae-experiments" / "sample-selection" / "k-means" / input_command
-	random_root = lsms_root / "ae-experiments" / "sample-selection" / "random" / input_command
+	kmeans_root = lsms_root / "ae-experiments" / "sample-selection" / "k-means" / input_command / selection_architecture
+	random_root = lsms_root / "ae-experiments" / "sample-selection" / "random" / input_command / selection_architecture
 	bench_clusters = load_kmeans_clusters(kmeans_root)
 	random_rids = load_random_regions(random_root)
 	print(random_rids)
 
 	measurements = []
 	# Run naive binaries first to provide baselines
-	naive_stats = measure_binary(Path(llvm_exec/ "lsms_papi_naive_exe"/ "lsms_papi_naive_exe"), naive_out_root, perf_combos, input_directory, input_command)
+	naive_stats = measure_binary(Path(llvm_exec/ f"lsms_papi_naive_{architecture}_exe"/ f"lsms_papi_naive_{architecture}_exe"), naive_out_root, perf_combos, input_directory, input_command)
 	entry = {
 		"type": "naive",
 		"region_id": "",
@@ -310,7 +316,7 @@ def main():
 
 	# Run nugget binaries and collect runtimes per rid
 	runtime_by_rid: dict[str, float] = {}
-	for rid, bin_path in find_nugget_binaries(llvm_exec):
+	for rid, bin_path in find_nugget_binaries(llvm_exec, architecture):
 		out_dir = nugget_out_root / rid
 		rid_stats = measure_binary(bin_path, out_dir, perf_combos, input_directory, input_command)
 		runtime_by_rid[rid] = rid_stats["real_time_nsec"]
@@ -367,7 +373,7 @@ def main():
 		raise RuntimeError("Invalid scale for random prediction; cannot form random prediction.")
 	random_pred = mean_runtime * scale
 	# Write CSV
-	csv_path = lsms_root / "ae-experiments" / "nugget-measurement" / "measurements.csv"
+	csv_path = lsms_root / "ae-experiments" / "nugget-measurement" / input_command / architecture / "measurements.csv"
 	csv_path.parent.mkdir(parents=True, exist_ok=True)
 	fieldnames = measurements[0].keys()
 	with csv_path.open("w", newline="") as f:
@@ -378,7 +384,8 @@ def main():
 			writer.writerow(row_out)
 
 	# Write prediction error CSV for k-means and random methods
-	pred_csv_path = lsms_root / "ae-experiments" / "nugget-measurement" / "prediction-error.csv"
+	pred_csv_path = lsms_root / "ae-experiments" / "nugget-measurement" / input_command / architecture / "prediction-error.csv"
+	pred_csv_path.parent.mkdir(parents=True, exist_ok=True)
 	pred_fieldnames = [
 		"sample_selection_method",
 		"predicted_time_nseconds",
