@@ -139,7 +139,7 @@ def create_random_selected_regions(
 def parse_args():
 	parser = argparse.ArgumentParser(description="Run sample selection and marker creation.")
 	parser.add_argument("--project-dir", "-d", required=True, help="Path to project root containing nugget-protocol-lsms.")
-	parser.add_argument("--num-regions", "-n", type=int, default=30, help="Number of k nuggets for clustering. (default: 30)")
+	parser.add_argument("--num-regions", "-n", type=int, default=50, help="Number of k nuggets for clustering. (default: 30)")
 	parser.add_argument("--random-seed", type=int, default=RANDOM_SEED, help="Seed for random region selection. (default: 627)")
 	parser.add_argument("--grace-perc", type=float, default=0.98, help="Grace percentage for marker creation. (default: 0.98)")
 	parser.add_argument("--region-length", type=int, default=100_000_000, help="Region length for marker creation. (default: 100,000,000)")
